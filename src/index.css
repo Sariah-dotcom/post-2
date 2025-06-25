@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+/* General Styles */
+body {
+    padding: 1rem 0rem 0rem 0rem;
+    background: #FCFCFC;
+}
+
+h1, p, .section-heading, button {
+  font-family: "Inter", serif;
+}
+
+
+h2, h3, h4 {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.main-pg {
+    color: #2B2828;
+}
+
+.button, li, a {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.secondary-heading {
+    font-family: 'Inter', sans-serif;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #0032D4;
+    margin-bottom: 5px;
+}
+
+@keyframes marquee {
+  0% {
+    transform: translateX(20%);
+  }
+  100% {
+    transform: translateX(-200%);
+  }
+}
+
+.marquee-animation {
+  animation: marquee 20s linear infinite;
+  white-space: nowrap;
+}
+
+
+.swiper {
+  width: 80%;
+  height: 10rem; 
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  padding: 2rem;
+  background-color: #0032D4;
+}
+
