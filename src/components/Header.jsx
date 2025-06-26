@@ -41,7 +41,7 @@ export default function Header() {
         </Link>
 
         {/* Desktop Menu */}
-        <div className="hidden md:flex gap-10 text-sm">
+        <div className="hidden md:flex gap-10 text-xs lg:text-sm lg:p-5">
             <Link className='hover:text-[#0016AE] hover:underline hover:font-bold transform transition-all duration-500' to="/" >Home</Link>
             <Link className='hover:text-[#0016AE] hover:underline hover:font-bold transform transition-all duration-500' to="/About" >About Us</Link>
             <Link className='hover:text-[#0016AE] hover:underline hover:font-bold transform transition-all duration-500' to="/Services" >Services</Link>

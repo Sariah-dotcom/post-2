@@ -2,8 +2,8 @@
 
 /* General Styles */
 body {
-    padding: 1rem 0rem 0rem 0rem;
-    background: #FCFCFC;
+  padding: 1rem 0rem 0rem 0rem;
+  background: #FCFCFC;
 }
 
 h1, p, .section-heading, button {
@@ -48,7 +48,7 @@ h2, h3, h4 {
 
 .swiper {
   width: 80%;
-  height: 10rem; 
+  height: 12rem; 
 }
 
 .swiper-slide {
@@ -59,4 +59,12 @@ h2, h3, h4 {
   padding: 2rem;
   background-color: #0032D4;
 }
+
+/* @media screen and (min-width:768px){
+  .swiper {
+    width: 90%;
+    height: 20rem;
+  }
+
+} */
 

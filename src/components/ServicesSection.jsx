@@ -43,9 +43,9 @@ export default function ServicesSection() {
   return (
     <section id='services' className="flex flex-col w-full " ref={servicesRef}>
      <div className='flex items-center justify-center w-full'>
-        <div className='lg:flex lg:justify-between lg:w-[70%]'>
-          <h2 className="secondary-heading text-xs text-center">What we offer</h2>
-          <h2 className='text-3xl font-semibold text-[#001A6E]'>Our Services</h2>
+        <div className='lg:w-[70%] text-center lg:text-left'>
+          <h2 className="secondary-heading text-xs">What we offer</h2>
+          <h2 className='text-3xl lg:text-5xl font-semibold text-[#001A6E] lg:mt-5'>Our Services</h2>
           
         </div>
      </div>

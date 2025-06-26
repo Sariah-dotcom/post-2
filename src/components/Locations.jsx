@@ -35,17 +35,17 @@ export default function Locations() {
     <section id="locations" className="flex justify-center">
       <div className="px-5 md:px-10 lg:px-0 lg:w-[70%] flex flex-col gap-5 lg:flex-row lg:items-center">
         <div ref={locationRef} className="lg:w-1/2 flex flex-col gap-5">
-        <h2 className="secondary-heading text-xs text-center">Wherever you need us</h2>
-          <h2 className="location-content mb-10 text-3xl text-center font-semibold text-[#001A6E]">
-            Multiple Locations
+        <h2 className="secondary-heading text-xs text-center lg:text-left">Wherever you need us</h2>
+          <h2 className="location-content mb-10 text-3xl text-center lg:text-left lg:text-5xl font-semibold text-[#001A6E]">
+            Multiple Locations <br />
             Island-wide
           </h2>
-          <p className="location-content text-center text-sm md:text-md">
+          <p className="location-content text-center text-sm md:text-md lg:text-left">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos soluta
             magnam odio voluptatum accusamus tenetur dignissimos.
           </p>
 
-          <div className="location-content flex flex-col gap-8 py-5 lg:w-[70%] lg:gap-12 lg:mt-20">
+          <div className="location-content flex flex-col gap-8 py-5 lg:w-[70%] lg:gap-12 lg:mt-10">
             <Accordion
               heading="Windward"
               content={
@@ -80,7 +80,7 @@ export default function Locations() {
           </div>
         </div>
 
-        <div className="lg:w-1/3 flex justify-center lg:justify-end">
+        <div className="lg:w-1/2 flex justify-center lg:justify-end">
           <img className=" lg:h-[35rem] h-[20rem]" src="\map.png" alt="map" />
         </div>
         

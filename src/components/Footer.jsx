@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 export default function Footer() {
   const year = new Date().getFullYear();
   return (
-    <footer className='relative pt-15 pb-2 bg-[#020F37] w-full text-white flex flex-col lg:items-center gap-5 lg:h-[60vh] lg:gap-20 lg:justify-center'>
+    <footer className='relative pt-10 pb-2 bg-[#020F37] w-full text-white flex flex-col lg:items-center gap-5 lg:h-[60vh] lg:gap-20 lg:justify-center'>
 
       <div className='lg:w-[70%] pt-10 flex flex-col gap-20 lg:flex-row'>
         
@@ -17,7 +17,7 @@ export default function Footer() {
         <div className='px-5 flex flex-col gap-10 w-full lg:flex-row lg:justify-between mb-20'>
           <div className="footer-link-group">
             <h4 className='uppercase font-semibold text-sm mb-5'>Services</h4>
-            <ul className='flex flex-col gap-2 text-sm'>
+            <ul className='flex flex-col gap-2 text-xs'>
               <Link to="\">Utility Bill Payment</Link>
               <Link to="\">Moneygram</Link>
               <Link to="\">EMS</Link>
@@ -28,7 +28,7 @@ export default function Footer() {
 
           <div className="footer-link-group">
             <h4 className='uppercase font-semibold text-sm mb-5'>Quick Links</h4>
-            <ul className='flex flex-col gap-2 text-sm'>
+            <ul className='flex flex-col gap-2 text-xs'>
               <Link to="\">Letter Postage Rates</Link>
               <Link to="\">Private Post Box Form</Link>
               <Link to="\">US Mailbox Form</Link>
@@ -37,7 +37,7 @@ export default function Footer() {
 
           <div className="footer-link-group">
             <h4 className='uppercase font-semibold text-sm mb-5'>Contact</h4>
-            <div className='text-sm'>
+            <div className='text-xs'>
               <p><span className='font-semibold'>Phone: </span>+1(784) 457-1744</p>
               <p><span className='font-semibold'>Email: </span>svgpostalcorp@vincysurf.com</p>
             </div>

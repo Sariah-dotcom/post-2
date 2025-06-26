@@ -7,7 +7,7 @@ import InfoCardSection from '../components/InfoCardSection'
 
 export default function Home() {
   return (
-    <div className='flex flex-col gap-35'>
+    <div className='flex flex-col gap-35 lg:gap-[15rem]'>
       <Hero />
       <AboutSection />
       <ServicesSection />
